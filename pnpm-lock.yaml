@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@orpc/client':
+        specifier: ^1.14.6
+        version: 1.14.6
       '@orpc/react':
         specifier: ^1.14.6
         version: 1.14.6(react@19.2.4)
@@ -26,6 +29,9 @@ importers:
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
+      dotenv:
+        specifier: ^17.4.2
+        version: 17.4.2
       drizzle-orm:
         specifier: ^0.45.2
         version: 0.45.2(@types/pg@8.20.0)(pg@8.22.0)
